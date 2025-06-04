@@ -6,3 +6,4 @@ export { default as ArithemeticAsianOption } from './ArithemeticAsianOption';
 export { default as ArithemeticBasketOption } from './ArithemeticBasketOption';
 export { default as KIKOPutOption } from './KIKOPutOption';
 export { default as AmericanOption } from './AmericanOption';
+export { default as InterestRateSwap } from './InterestRateSwap';

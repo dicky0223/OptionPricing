@@ -12,7 +12,8 @@ import {
   ArithemeticAsianOption,
   ArithemeticBasketOption,
   AmericanOption,
-  KIKOPutOption
+  KIKOPutOption,
+  InterestRateSwap
 } from "./component"
 
 const components = [
@@ -47,6 +48,10 @@ const components = [
   {
     label: 'KIKO Put Option',
     component: <KIKOPutOption />
+  },
+  {
+    label: 'Interest Rate Swap',
+    component: <InterestRateSwap />
   }
 ]
 
